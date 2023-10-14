@@ -10,4 +10,4 @@ class HideActiveCanvas(ArmLogicTreeNode):
     def arm_init(self, context):
         self.add_input('ArmNodeSocketAction', 'In')
         self.add_output('ArmNodeSocketAction', 'Out')
-        self.inputs.new('ArmBoolSocket', 'HideCanvas')
+        self.add_input('ArmBoolSocket', 'HideCanvas')
